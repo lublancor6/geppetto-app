@@ -4,7 +4,7 @@
     "containerDefinitions": [
         {
             "name": "geppetto-app", 
-            "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%", 
+            "image": "967636366309.dkr.ecr.us-east-1.amazonaws.com/geppetto/gepapp:test", 
             "portMappings": [
                 {
                     "containerPort": 8080, 
